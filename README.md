@@ -1,6 +1,6 @@
 # ShadowDevs BU Platform
 
-Welcome to the main website repository of ShadowDevs Babcock University! This project is developed using Java and the Spring framework.
+Welcome to the main website repository of ShadowDevs Babcock University!
 
 ## Overview
 
