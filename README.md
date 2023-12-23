@@ -14,9 +14,9 @@ The ShadowDevs BU Platform is a vibrant and dynamic community website for passio
 
 ## Technologies Used
 
-- Java
-- Spring Boot
-- Thymeleaf (for HTML templating)
+- ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+- ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+- ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white)
 
 ## Getting Started
 
@@ -48,7 +48,8 @@ We welcome contributions from the community! If you'd like to contribute to the 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+.
 
 ## Contact
 
