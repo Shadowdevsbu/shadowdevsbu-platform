@@ -1,5 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -79,7 +80,7 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="/">
-        <img src="" th:src="@{images/logo.png}" alt="Logo">
+        <img src="/images/logo.png" alt="Logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -101,17 +102,14 @@
       <div class="col-md-12">
         <h1 class="display-4">COMING SOON</h1>
       </div>
-     
+
     </div>
   </div>
 
   <!-- Footer Section -->
   <footer class="text-center py-5">
     <a href="https://github.com/Shadowdevsbu/">
-      <img src="" th:src="@{images/github.png}" alt="Github Logo" height="50" style="border-radius:10px"/>
-    </a>
-    <a href="#">
-      <img src="" th:src="@{images/X.png}" alt="Twitter/X Logo" height="50" style="border-radius:10px"/>
+      <img src="/images/github.png"  alt="Github Logo" height="50" style="border-radius:10px"/>
     </a>
 
     <hr style="width: 65%; background-color: #555555; border: 2px solid #555555" />

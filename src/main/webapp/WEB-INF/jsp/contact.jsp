@@ -1,11 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="/images/favicon.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>ShadowDevs Babcock | Community</title>
+  <title>ShadowDevs Babcock | Contact</title>
   <style>
     body {
       background-color: #121212;
@@ -65,10 +66,10 @@
         font-size: 1rem;
       }
 
-    #hero {
-      padding-top: 0rem;
-    }
-    nav img{
+      #hero {
+        padding-top: 0rem;
+      }
+      nav img{
         height: 35px;
       }
     }
@@ -79,7 +80,7 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="/">
-        <img src="" th:src="@{images/logo.png}" alt="Logo">
+        <img src="/images/logo.png"  alt="Logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -88,8 +89,8 @@
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link NAV-TEXT" href="/" >Home</a></li>
           <li class="nav-item"><a class="nav-link NAV-TEXT" href="/projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link NAV-TEXT" href="/community" style="color: white;">Community</a></li>
-          <li class="nav-item"><a class="nav-link NAV-TEXT" href="/contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link NAV-TEXT" href="/community" >Community</a></li>
+          <li class="nav-item"><a class="nav-link NAV-TEXT" href="/contact" style="color: white;">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -101,23 +102,20 @@
       <div class="col-md-12">
         <h1 class="display-4">COMING SOON</h1>
       </div>
-     
+
     </div>
   </div>
 
   <!-- Footer Section -->
   <footer class="text-center py-5">
     <a href="https://github.com/Shadowdevsbu/">
-      <img src="" th:src="@{images/github.png}" alt="Github Logo" height="50" style="border-radius:10px"/>
+      <img src="/images/github.png"  alt="Github Logo" height="50" style="border-radius:10px"/>
     </a>
-    <a href="#">
-      <img src="" th:src="@{images/X.png}" alt="Twitter/X Logo" height="50" style="border-radius:10px"/>
-    </a>
+
 
     <hr style="width: 65%; background-color: #555555; border: 2px solid #555555" />
     <p class="mt-3">&copy; 2023 Shadow Developers Community</p>
   </footer>
-
   <!-- Bootstrap JS and other scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
