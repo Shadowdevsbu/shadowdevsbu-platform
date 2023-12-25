@@ -23,6 +23,22 @@
       font-size: 1.3rem;
     }
 
+    .nav-active {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    }
+
+    .nav-active::after {
+    content: '';
+    display: block;
+    width: 82%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 9px;
+    }
+
     #hero h1 {
       font-weight: 400;
       line-height: 1.5;
@@ -88,7 +104,7 @@ nav img{
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link NAV-TEXT" href="/" >Home</a></li>
-          <li class="nav-item"><a class="nav-link NAV-TEXT" href="/projects" style="color: white;">Projects</a></li>
+          <li class="nav-item"><a class="nav-link NAV-TEXT nav-active" href="/projects" style="color: white;">Projects</a></li>
           <li class="nav-item"><a class="nav-link NAV-TEXT" href="/community">Community</a></li>
           <li class="nav-item"><a class="nav-link NAV-TEXT" href="/contact">Contact</a></li>
         </ul>

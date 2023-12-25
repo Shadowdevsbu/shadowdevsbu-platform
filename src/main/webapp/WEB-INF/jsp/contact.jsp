@@ -23,6 +23,22 @@
       font-size: 1.3rem;
     }
 
+    .nav-active {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    }
+
+    .nav-active::after {
+    content: '';
+    display: block;
+    width: 83%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 9px;
+    }
+
     #hero h1 {
       font-weight: 400;
       line-height: 1.5;
@@ -90,7 +106,7 @@
           <li class="nav-item"><a class="nav-link NAV-TEXT" href="/" >Home</a></li>
           <li class="nav-item"><a class="nav-link NAV-TEXT" href="/projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link NAV-TEXT" href="/community" >Community</a></li>
-          <li class="nav-item"><a class="nav-link NAV-TEXT" href="/contact" style="color: white;">Contact</a></li>
+          <li class="nav-item"><a class="nav-link NAV-TEXT nav-active" href="/contact" style="color: white;">Contact</a></li>
         </ul>
       </div>
     </nav>

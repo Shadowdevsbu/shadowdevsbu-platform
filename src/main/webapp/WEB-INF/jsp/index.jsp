@@ -41,6 +41,22 @@
       font-size: 1.3rem;
     }
 
+    .nav-active {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    }
+
+    .nav-active::after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 9px;
+    }
+
     #hero h1 {
       font-family: 'Space Grotesk', sans-serif;
       font-weight: 400;
@@ -163,7 +179,7 @@
     </button>
     <div class="collapse top navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link NAV-TEXT" href="/" style="color: white;">Home</a></li>
+        <li class="nav-item"><a class="nav-link NAV-TEXT nav-active" href="/" style="color: white;">Home</a></li>
         <li class="nav-item"><a class="nav-link NAV-TEXT" href="/projects">Projects</a></li>
         <li class="nav-item"><a class="nav-link NAV-TEXT" href="/community">Community</a></li>
         <li class="nav-item"><a class="nav-link NAV-TEXT" href="/contact">Contact</a></li>
