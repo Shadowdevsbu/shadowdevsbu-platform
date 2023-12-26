@@ -137,6 +137,10 @@
 
 
     @media (max-width: 767px) {
+      .nav-active::after {
+      width: 19%;
+      }
+
       #hero h1 {
         font-size: 1.8rem;
         font-weight: 600;
