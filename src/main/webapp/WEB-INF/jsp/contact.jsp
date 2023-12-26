@@ -74,6 +74,10 @@
         height: 50px;
     }
     @media (max-width: 767px) {
+      .nav-active::after {
+      width: 25%;
+      }
+      
       #hero h1 {
         font-size: 1.5rem;
       }
