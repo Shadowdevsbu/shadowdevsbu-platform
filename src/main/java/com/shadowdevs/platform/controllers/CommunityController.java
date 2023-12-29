@@ -23,7 +23,7 @@ public class CommunityController {
 //    @GetMapping("/home")
 //    @ResponseBody
 //    public String communityHome(){
-//        return "under constructionge";
+//        return "under construction";
 //    }
 
 }
