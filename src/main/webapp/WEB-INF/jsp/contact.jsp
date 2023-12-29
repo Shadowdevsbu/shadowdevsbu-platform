@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>ShadowDevs Babcock | Contact</title>
   <style>
+  * {
+        font-family: 'Space Grotesk', sans-serif;
+      }
     body {
       background-color: #121212;
       color: #fff;
