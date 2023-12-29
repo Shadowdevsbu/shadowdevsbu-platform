@@ -198,7 +198,7 @@
     <div class="col-md-6">
       <h1 class="display-4">A vibrant and dynamic community of passionate developers at Babcock University</h1>
       <!-- GitHub Repository CTA Button with GitHub Logo -->
-      <a data-aos="slide-up" href="https://github.com/Shadowdevsbu/shadowdevsbu-platform" target="_blank" class="cta-button">
+      <a data-aos="slide-up" href="https://github.com/Shadowdevsbu/shadowdevsbu" target="_blank" class="cta-button">
         <img class="github-logo" src="https://github.com/fluidicon.png" alt="GitHub Logo">
         Contribute on GitHub
       </a>
