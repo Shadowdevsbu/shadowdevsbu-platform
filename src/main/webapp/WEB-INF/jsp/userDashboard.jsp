@@ -1,5 +1,5 @@
 <form action="/logout">
-UNDER CONSTRUCTION
+USER DASHBOARD
 
 <button type="submit" class="btn ">Log Out </button>
 </form>
