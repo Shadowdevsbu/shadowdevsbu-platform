@@ -137,7 +137,7 @@
 
 
     <hr style="width: 65%; background-color: #555555; border: 2px solid #555555" />
-    <p class="mt-3">&copy; 2023 Shadow Developers Community</p>
+    <p class="mt-3">&copy; 2024 Shadow Developers Community</p>
   </footer>
   <!-- Bootstrap JS and other scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
